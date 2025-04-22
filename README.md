@@ -1,12 +1,12 @@
-Loja Virtual
+# Loja Virtual
 
 Bem-vindo ao repositório da Loja Virtual, um projeto de e-commerce desenvolvido para oferecer uma plataforma de vendas online prática, segura e escalável. Este projeto está em desenvolvimento e visa atender consumidores e lojistas com uma experiência de compra moderna e intuitiva.
 
-Descrição
+## 📖 Descrição
 
 A Loja Virtual é uma plataforma de comércio eletrônico projetada para facilitar a venda de produtos online. Com um design responsivo e funcionalidades robustas, o projeto é ideal para pequenos e médios empreendedores que desejam estabelecer ou expandir sua presença digital.
 
-Funcionalidades Principais
+### Funcionalidades Principais
 
 Catálogo de Produtos: Exibição de produtos com imagens, descrições, preços e variações (tamanhos, cores, etc.).
 
@@ -18,7 +18,7 @@ Painel de Administração: Gerenciamento de pedidos, estoque, promoções e rela
 
 SEO e Marketing: Otimização para motores de busca e integração com ferramentas de e-mail marketing e redes sociais.
 
-Diferenciais
+### Diferenciais
 
 Interface amigável e personalizável para refletir a identidade da marca.
 
