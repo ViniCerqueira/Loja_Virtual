@@ -55,7 +55,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-b from-green-900 to-purple-70000 min-h-screen p-6">
+        <section className="relative bg-gradient-to-b from-green-900 min-h-screen p-6">
           <div className="container mx-auto px-4 py-16 md:py-24">
             <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
               <div className="space-y-4">
@@ -68,7 +68,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg" asChild>
-                    <Link href="/products">Shop Now</Link>
+                    <Link href="/pages/products/index.tsx">Shop Now</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
                     <Link href="/collections">View Collections</Link>
@@ -95,7 +95,7 @@ export default function Home() {
               Featured Products
             </h2>
             <Link
-              href="/products"
+              href="/pages/products/index.tsx"
               className="text-sm font-medium hover:underline mt-2 md:mt-0"
             >
               View all products →
