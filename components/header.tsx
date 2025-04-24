@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ title = "Loja Virtual" }) => {
             Produtos
           </Link>
           <Link
-            href="pages/sobre"
+            href="/sobre"
             className="text-sm font-medium transition-colors hover:text-black/70"
           >
             Sobre
