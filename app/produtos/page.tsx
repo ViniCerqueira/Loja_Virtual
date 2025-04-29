@@ -88,11 +88,23 @@ export default function Page() {
   return (
     <div>
       <Header />
+      <section className="relative bg-gradient-to-b from-blue-500 to-blue-700 min-h-screen p-6">
+        <div className="container mx-auto px-4 py-16 md:py-24">
+          <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
+            <div className="space-y-4">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+                Find all products and categories here!
+              </h1>
+              <p className="max-w-[600px] text-gray-50 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Find different styles of products and enjoy your shopping
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="flex flex-col md:flex-row justify-between items-baseline mb-8">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
-            All Products
-          </h2>
           <div className="mt-4 md:mt-0">
             <Filters onFilterChange={setSelectedCategory} />
           </div>

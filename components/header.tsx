@@ -21,26 +21,28 @@ const Header: React.FC<HeaderProps> = ({ title = "Loja Virtual" }) => {
             width={32}
             height={32}
           />
-          <span className="hidden xl:inline xl:text-2xl">MINIMAL</span>
+          <span className="hidden text-blue-900 xl:inline xl:text-2xl">
+            MINIMAL
+          </span>
         </Link>
 
         {/* Navigation - Desktop */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden text-blue-500 md:flex items-center space-x-6">
           <Link
             href="/"
-            className="text-sm font-medium transition-colors hover:text-black/70"
+            className="text-sm hover:text-blue-900 font-medium transition-colors"
           >
             Inicio
           </Link>
           <Link
             href="/produtos"
-            className="text-sm font-medium transition-colors hover:text-black/70"
+            className="text-sm hover:text-blue-900 font-medium transition-colors"
           >
             Produtos
           </Link>
           <Link
             href="/sobre"
-            className="text-sm font-medium transition-colors hover:text-black/70"
+            className="text-sm font-medium hover:text-blue-900 transition-colors"
           >
             Sobre
           </Link>
@@ -56,7 +58,7 @@ const Header: React.FC<HeaderProps> = ({ title = "Loja Virtual" }) => {
         </div>
 
         {/* Icons */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center text-blue-500 space-x-4">
           <Button
             variant="ghost"
             size="icon"

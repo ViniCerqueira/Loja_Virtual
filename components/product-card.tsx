@@ -48,7 +48,7 @@ export default function ProductCard({ product }: { product: Product }) {
         </div>
       </Link>
       <div className="absolute bottom-4 right-4 translate-y-1 opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-        <Button size="sm" className="rounded-full" aria-label="Add to cart">
+        <Button size="sm" className="rounded-full " aria-label="Add to cart">
           <ShoppingCart className="h-4 w-4 mr-2" />
           Buy
         </Button>

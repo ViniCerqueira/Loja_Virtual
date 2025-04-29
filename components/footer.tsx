@@ -7,7 +7,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
   return (
-    <footer className="bg-black text-gray-500">
+    <footer className="bg-black bg-gradient-to-b from-blue-500 to-blue-700 text-gray-500">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div>
@@ -16,33 +16,17 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/products"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Todos os produtos
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/collections"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
-                >
-                  Coleções
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/featured"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  href="#featured-products"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Destaques
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/new-arrivals"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
-                >
-                  Novidades
                 </Link>
               </li>
             </ul>
@@ -53,7 +37,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/faq"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Perguntas Frequentes
                 </Link>
@@ -61,7 +45,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/shipping"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Envio e Devolucoes
                 </Link>
@@ -69,7 +53,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Contato
                 </Link>
@@ -82,7 +66,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Sobre Nós
                 </Link>
@@ -90,7 +74,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Política de Privacidade
                 </Link>
@@ -98,7 +82,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
               <li>
                 <Link
                   href="/terms"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Termos de Uso
                 </Link>
@@ -107,25 +91,25 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
           </div>
           <div>
             <h3 className="mb-4 text-lg font-medium text-white">Contato</h3>
-            <ul className="space-y-2 text-gray-500">
+            <ul className="space-y-2 text-white">
               <li>support@minimal.com</li>
               <li>+1 (555) 123-4567</li>
               <li className="flex space-x-4 pt-2">
                 <Link
                   href="https://instagram.com"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Instagram
                 </Link>
                 <Link
                   href="https://twitter.com"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Twitter
                 </Link>
                 <Link
                   href="https://facebook.com"
-                  className="text-gray-500 hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors"
                 >
                   Facebook
                 </Link>
@@ -133,7 +117,7 @@ const Footer: React.FC<FooterProps> = ({ title = "Loja Virtual" }) => {
             </ul>
           </div>
         </div>
-        <div className="mt-8 border-t border-gray-800 pt-8 text-center text-sm">
+        <div className="mt-8  pt-8 text-center text-sm">
           <p>
             © {new Date().getFullYear()} MINIMAL. Todos os direitos reservados.
           </p>

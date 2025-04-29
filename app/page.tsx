@@ -55,23 +55,31 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-b from-blue-500 min-h-screen p-6">
+        <section className="relative bg-gradient-to-b from-blue-500 to-blue-700 min-h-screen p-6">
           <div className="container mx-auto px-4 py-16 md:py-24">
             <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
               <div className="space-y-4">
-                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
                   Discover Your Style
                 </h1>
                 <p className="max-w-[600px] text-gray-50 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Curated collections for the modern lifestyle. Minimalist
-                  designs with maximum impact.
+                  Find different styles of products and enjoy your shopping
+                  experience.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg" asChild>
-                    <Link href="/produtos">Shop Now</Link>
+                <div className="flex flex-col gap-2 min-[400px]:flex-row ">
+                  <Button
+                    size="lg"
+                    asChild
+                    className="bg-white text-blue-900 hover:text-blue-500"
+                  >
+                    <Link href="/collections">Shop Now</Link>
                   </Button>
-                  <Button variant="outline" size="lg" asChild>
-                    <Link href="/collections">View Collections</Link>
+                  <Button
+                    size="lg"
+                    asChild
+                    className="border-white bg-white text-blue-900 hover:text-blue-500"
+                  >
+                    <Link href="/produtos">View Collections</Link>
                   </Button>
                 </div>
               </div>
@@ -90,13 +98,16 @@ export default function Home() {
 
         {/* Featured Products */}
         <section className="container mx-auto px-4 py-12 md:py-16">
-          <div className="flex flex-col md:flex-row justify-between items-baseline mb-8">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
+          <div
+            id="featured-products"
+            className="flex flex-col md:flex-row justify-between items-baseline mb-8"
+          >
+            <h2 className="text-2xl text-blue-500 font-bold tracking-tight sm:text-3xl md:text-4xl ">
               Featured Products
             </h2>
             <Link
               href="/produtos"
-              className="text-sm font-medium hover:underline mt-2 md:mt-0"
+              className="text-sm text-blue-500 font-medium hover:text-blue-900 mt-2 md:mt-0"
             >
               View all products →
             </Link>
